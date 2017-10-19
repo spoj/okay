@@ -11,18 +11,11 @@ FormatTime, d,, yyyyMMdd-HHmm
 SendInput %d%
 Return
 
-
-; Capslock as Control
+; Win-Z as Alt-F4
 Capslock::Ctrl
 
-
-; Alt-` as Alt-F4
-!`::
-  Send !{f4}
-return
-
-; Ctrl-Menu as Alt-F4
-^AppsKey::
+; Win-Z as Alt-F4
+#z::
   Send !{f4}
 return
 
